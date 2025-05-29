@@ -1,0 +1,16 @@
+{
+  "name": "playwright-steps",
+  "version": "1.0.0",
+  "author": "Bagrat Ioannisiani <bagratina@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "playwright:ui": "playwright test --ui",
+    "playwright:install": "playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22",
+    "playwright": "^1.50.1"
+  }
+}
